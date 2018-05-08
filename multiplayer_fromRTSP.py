@@ -79,18 +79,18 @@ class multiplayer(object):
 
     GREEN = (0,255,0)
 
-    def __init__(self,url=None):
-        if url is None:
+    def __init__(self,rtsp=None):
+        if rtsp is None:
             sys.exit("Exception: no input args")    
 
-        self.url = url
-        self.vcap = cv2.VideoCapture(url)        
+        self.rtsp = rtsp
+        self.vcap = cv2.VideoCapture(rtsp)        
         self.if_detect = 1 
         self.if_create_bbox = 1
 
         if not self.vcap.isOpened():
-            print("cannot open", url)
-            if self.url.find('rtsp')>-1:
+            print("cannot open", rtsp)
+            if self.rtsp.find('rtsp')>-1:
                 print("Please make sure username and password are provided in the rtsp url\n")
             sys.exit("exit -1: invalid url")
     
@@ -140,7 +140,7 @@ if __name__ == "__main__":
     #args.url = "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov"
     #args.url = "rtsp://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov"
     #args.url = "rtsp://127.0.0.1:8554/stream"
-    #args.url = "rtsp://admin:multitek123@192.168.10.107:554/Streaming/Channels/101?transportmode=unicast&profile=Profile_1"
+    args.url = "rtsp://admin:multitek123@192.168.10.107:554/Streaming/Channels/101?transportmode=unicast&profile=Profile_1"
     player  = multiplayer(args.url)
     player.play()
     
