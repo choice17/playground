@@ -27,7 +27,7 @@ map extra srt into streaming
 `ffmpeg -y -v panic -i {input} -f srt -i {.srt} -map 0 -map 1 -c copy -c:s mov_text {output}`
 
 map attachment -> only work for .mkv  -> matroska format
-`ffmpeg -y -i {input} -attach {input} -metadata:s:t:0 -mimetype=text\plain -f matroska {out}.mkv`
+`ffmpeg -y -i {input} -attach {input} -metadata:s:t:0 mimetype=text\plain -f matroska {out}.mkv`
 
 extract streams from input  
 `ffmpeg -dump_attachment:#streams {outfile} -i {input} {optional:outputfile}`
@@ -41,7 +41,12 @@ mapping streams to input
 replace dst file  
 `-y`
 
+output to pipe stream
+`ffmpeg -re -r 30 -i {input} -c copy -sn -f matroska pipe:1 | ffplay pipe:0`
 
+output rtp streaming  
+`ffmpeg -re -r 30 -i {input} -map 0 -sn -f rtp_mpegt rtp://{localhost}:{port}`
+**-re** flag means re-streaming at the rate of video, **-r 30** specifies the streaming rate  
 
 ## ffprobe  
 
@@ -62,3 +67,6 @@ simply get streaming meta data
 00:20:41,150 --> 00:20:45,109
 How did he do that?
 ```
+- summary of attach file:  
+`able to attach file to mkv as metadata`
+`able to attach text as srt into mp4`
