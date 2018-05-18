@@ -1,0 +1,94 @@
+﻿1
+00:00:01,473 --> 00:00:03,749
+<bol>
+  <number>2</number>
+  <object id=1>
+    <x>100</x>
+    <y>120</y>
+    <w>50</w>
+    <h>60</h>
+    <speed>10</speed>
+    <angle>30</angle>
+  </object>
+  <object id=2>   
+    <x>180</x>
+    <y>200</y>
+    <w>70</w>
+    <h>65</h>
+    <speed>15</speed>
+    <angle>120</angle>
+  </object>
+</bol>
+
+2
+00:00:03,817 --> 00:00:05,351
+3c626f6c3e0a20203c6e756d6265723e323c2f6e756d6265723e0a20203c6f626a6563742069643d313e0a202020203c783e3130303c2f783e0a202020203c793e3132303c2f793e0a202020203c773e35303c2f773e0a202020203c683e36303c2f683e0a202020203c73706565643e31303c2f73706565643e0a202020203c616e676c653e33303c2f616e676c653e0a20203c2f6f626a6563743e0a20203c6f626a6563742069643d323e2020200a202020203c783e3138303c2f783e0a202020203c793e3230303c2f793e0a202020203c773e37303c2f773e0a202020203c683e36353c2f683e0a202020203c73706565643e31353c2f73706565643e0a202020203c616e676c653e3132303c2f616e676c653e0a20203c2f6f626a6563743e0a3c2f626f6c3e
+
+3
+00:00:05,418 --> 00:00:07,952
+I may have been
+one of those people.
+
+4
+00:00:08,241 --> 00:00:10,327
+I may have been
+one of those people.
+
+5
+00:00:10,914 --> 00:00:12,260
+Wait, wait, are we talking
+about the wedding?
+
+6
+00:00:12,327 --> 00:00:13,578
+- Yes.
+- Oh, yeah, I was definitely
+
+7
+00:00:13,645 --> 00:00:14,749
+one of those people.
+
+8
+00:00:15,092 --> 00:00:16,494
+And yet, here we are.
+Now, we got a lot of
+
+9
+00:00:16,561 --> 00:00:17,538
+family
+coming in tomorrow.
+
+10
+00:00:17,606 --> 00:00:19,061
+I'm gonna need
+everyone's help.
+
+11
+00:00:19,129 --> 00:00:21,250
+Think of this as one of
+your comic book movies.
+
+12
+00:00:21,318 --> 00:00:23,751
+There's a bunch of superheroes,
+each with a different task.
+
+13
+00:00:23,819 --> 00:00:25,202
+Oh, like
+the new Avengers.
+
+14
+00:00:25,270 --> 00:00:26,429
+- Which one was that?
+- The one
+
+15
+00:00:26,496 --> 00:00:28,311
+you slept through
+last weekend.
+
+16
+00:00:30,000 --> 00:00:37,000
+what are you talking 
+about here?
